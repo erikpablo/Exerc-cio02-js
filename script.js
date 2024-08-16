@@ -33,7 +33,7 @@ function calAverage(students) {
 
 for(let student of students) {
     const average = calAverage(student)
-    // let approved = average >= 6 ? `Parabéns, ${student.name}! Você foi aprovado(a no curso!` : `Não foi dessa vez, ${student.name}! Tente novamente`
+    let approved = average >= 6 ? `Parabéns, ${student.name}! Você foi aprovado(a no curso!` : `Não foi dessa vez, ${student.name}! Tente novamente`
     alert(`
         A media do(a) aluno(a) ${student.name} é; ${average}
         ${approved}
